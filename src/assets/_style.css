@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.primary-image {
+  height: 300px;
+}
+
+.images {
+  height: 150px;
+}
+
+.nav .nav-link.active {
+  color: #0d6efd !important; /* 設定顏色 (這裡使用 Bootstrap 的主藍色) */
+  font-weight: 700; /* 設定粗體 (700 等同於 bold) */
+  /* border-bottom: 2px solid #0d6efd;  (選用：如果你想要底部加底線) */
+}
+
+/* (選用) 設定滑鼠游標懸停時的樣式，讓使用者體驗更好 */
+.nav .nav-link:hover {
+  color: #0a58ca;
+}
+
+.img-btn.active {
+  color: #0d6efd !important; /* 設定顏色 (這裡使用 Bootstrap 的主藍色) */
+  font-weight: 700;
+}
