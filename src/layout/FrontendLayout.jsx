@@ -141,7 +141,7 @@ function FrontendLayout() {
             </button>
           </div>
         </div>
-        <p>© 2025 React 第五堂主線作業</p>
+        <p>© 2025 React 第六堂主線作業</p>
       </footer>
     </>
   );
